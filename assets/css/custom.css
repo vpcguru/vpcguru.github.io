@@ -2,14 +2,20 @@
 
 /* Color Variables */
 :root {
+  /* Brand Colors */
   --primary-dark: #0a1e3a;
   --primary-blue: #1e5a96;
   --accent-blue: #0066ff;
   --light-blue: #1e90ff;
+
+  /* Dark Theme */
+  --bg-dark: #0d1117;
+  --bg-darker: #010409;
+  --bg-section: #161b22;
+  --text-light: #e6edf3;
+  --text-muted: #8b949e;
+  --border-dark: #30363d;
   --white: #ffffff;
-  --gray-light: #f5f5f5;
-  --gray-border: #e0e0e0;
-  --text-dark: #1a1a1a;
 }
 
 /* Smooth scrolling for anchor links */
@@ -19,7 +25,8 @@ html {
 
 /* Body styling */
 body {
-  background-color: #fafafa;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
 }
 
 /* Header/Navigation styling */
@@ -33,7 +40,7 @@ body {
 .site-title {
   display: flex;
   align-items: center;
-  color: var(--primary-dark) !important;
+  color: var(--text-light) !important;
   font-weight: 700;
 }
 
@@ -42,20 +49,20 @@ body {
 }
 
 .masthead {
-  background-color: white;
+  background-color: var(--bg-section);
   border-bottom: 2px solid var(--accent-blue);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .greedy-nav .visible-links a {
-  color: var(--primary-dark);
+  color: var(--text-light);
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .greedy-nav .visible-links a:hover {
   color: var(--accent-blue);
-  background-color: rgba(0, 102, 255, 0.05);
+  background-color: rgba(0, 102, 255, 0.1);
 }
 
 /* Hero section */
@@ -118,7 +125,7 @@ section:first-of-type {
 h2 {
   font-size: 2em;
   font-weight: 700;
-  color: var(--primary-dark);
+  color: var(--text-light);
   padding-bottom: 15px;
   border-bottom: 2px solid var(--accent-blue);
 }
@@ -126,7 +133,7 @@ h2 {
 h3 {
   font-size: 1.3em;
   font-weight: 600;
-  color: var(--primary-blue);
+  color: var(--light-blue);
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -140,24 +147,25 @@ table {
 }
 
 table thead {
-  background-color: var(--gray-light);
+  background-color: var(--bg-section);
 }
 
 table th {
   padding: 12px;
   text-align: left;
   font-weight: 600;
-  color: var(--primary-dark);
+  color: var(--text-light);
   border-bottom: 2px solid var(--accent-blue);
 }
 
 table td {
   padding: 12px;
-  border-bottom: 1px solid var(--gray-border);
+  border-bottom: 1px solid var(--border-dark);
+  color: var(--text-light);
 }
 
 table tr:hover {
-  background-color: rgba(0, 102, 255, 0.05);
+  background-color: rgba(0, 102, 255, 0.15);
 }
 
 /* Lists */
@@ -221,22 +229,38 @@ a:hover {
 hr {
   margin: 60px 0;
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--border-dark);
+}
+
+/* Container styling */
+.container-lg {
+  background-color: var(--bg-dark);
+}
+
+.markdown-body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+/* Blockquote styling */
+blockquote {
+  color: var(--text-muted);
+  border-left-color: var(--accent-blue);
 }
 
 /* Code blocks */
 code {
-  background-color: var(--gray-light);
+  background-color: var(--bg-section);
   padding: 0.2em 0.4em;
   border-radius: 3px;
   border-left: 3px solid var(--accent-blue);
   font-family: "Courier New", monospace;
   font-size: 0.9em;
-  color: var(--primary-dark);
+  color: var(--light-blue);
 }
 
 pre {
-  background-color: var(--gray-light);
+  background-color: var(--bg-section);
   padding: 15px;
   border-radius: 5px;
   border-left: 4px solid var(--accent-blue);
@@ -248,6 +272,7 @@ pre code {
   background-color: transparent;
   padding: 0;
   border-left: none;
+  color: var(--text-light);
 }
 
 /* Responsive design */
@@ -319,10 +344,32 @@ pre code {
 
 /* Print styles */
 @media print {
+  body {
+    background-color: white;
+    color: #000;
+  }
+
   .hero {
-    background: none;
-    color: var(--text-dark);
-    border: 1px solid var(--gray-border);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 100%);
+    color: white;
+    border: 1px solid var(--border-dark);
+  }
+
+  h2 {
+    color: #000;
+  }
+
+  h3 {
+    color: var(--primary-blue);
+  }
+
+  table,
+  table th,
+  table td,
+  pre,
+  code {
+    background-color: #f5f5f5;
+    color: #000;
   }
 
   a {
