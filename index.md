@@ -6,6 +6,9 @@ permalink: /
 ---
 
 <div class="hero">
+  <div class="hero-logo">
+    <img src="/assets/images/vpcguru_icon.png" alt="VPC Guru">
+  </div>
   <h1>Professional IT Consulting</h1>
   <p class="lead">Delivering expert IT consulting and infrastructure solutions for modern technology challenges.</p>
   <p><strong>Based in Dallas-Fort Worth, Texas</strong></p>

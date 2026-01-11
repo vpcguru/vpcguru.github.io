@@ -12,7 +12,7 @@ repository: "vpcguru/vpcguru.github.io"
 # Site Author
 author:
   name: "VPC Guru"
-  avatar: "/assets/images/bio-photo.jpg" # Add your logo later
+  avatar: "/assets/images/vpcguru_icon.png"
   bio: "Delivering expert IT consulting and solutions."
   location: "Dallas-Fort Worth, TX"
   email: "contact@vpcguru.com"
