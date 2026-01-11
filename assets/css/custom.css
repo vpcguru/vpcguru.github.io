@@ -146,28 +146,48 @@ table {
   margin: 30px 0;
   border-collapse: collapse;
   font-size: 0.95em;
+  background-color: var(--bg-section);
+  color: var(--text-light);
 }
 
 table thead {
+  background-color: var(--bg-darker);
+}
+
+table tbody {
   background-color: var(--bg-section);
 }
 
 table th {
-  padding: 12px;
+  padding: 14px 12px;
   text-align: left;
   font-weight: 600;
   color: var(--text-light);
   border-bottom: 2px solid var(--accent-blue);
+  background-color: var(--bg-darker);
 }
 
 table td {
   padding: 12px;
   border-bottom: 1px solid var(--border-dark);
   color: var(--text-light);
+  background-color: var(--bg-section);
+}
+
+table tr {
+  background-color: var(--bg-section);
 }
 
 table tr:hover {
-  background-color: rgba(0, 102, 255, 0.15);
+  background-color: rgba(0, 102, 255, 0.2);
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(0, 102, 255, 0.05);
+}
+
+table tr:nth-child(even):hover {
+  background-color: rgba(0, 102, 255, 0.2);
 }
 
 /* Lists */
