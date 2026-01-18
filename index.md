@@ -45,22 +45,12 @@ VPC Guru provides specialized consulting to help organizations build strong engi
 
 ### Career Highlights
 
-**Senior Engineering Manager** — Arctic Wolf (Sep 2023 - Nov 2024)
-- Led engineering teams on detection and response initiatives
-
-**Senior Engineering Manager** — VMware Carbon Black (Jul 2022 - Sep 2023)
-- Created new team structures for automation-heavy lifts
-- Mentored engineers at all career levels for growth and efficacy
-- Designed and refined E2E test automation infrastructure across AWS, Azure, and GCP
-- Led agile processes for predictable software release planning meeting aggressive SLAs
-
-**Engineering Manager** — VMware Carbon Black (Oct 2019 - Jul 2022)
-- Managed testing and automation teams for security products
-- Coordinated cross-functional initiatives with product, design, and architecture teams
-
-**Senior Software Engineer in Test** — VMware Carbon Black (Oct 2018 - Oct 2019)
-- Led test automation strategy and infrastructure development
-- Worked on cloud-based security solutions
+**Endpoint Security & Automation Leadership** — Arctic Wolf, VMware Carbon Black (2018 - 2024)
+- Led engineering teams focused on automation, quality, and detection & response in the endpoint security space
+- Built and scaled test automation infrastructure across AWS, Azure, and GCP enabling rapid, reliable releases
+- Championed CI/CD practices and automation-first culture to accelerate developer velocity while maintaining quality
+- Mentored engineers at all levels and created team structures optimized for automation-heavy initiatives
+- Drove agile processes and cross-functional collaboration to meet aggressive SLAs in security product delivery
 
 **Senior Windows Engineer** — Georgia Tech Research Institute (Dec 2016 - Oct 2018)
 - Developed and maintained Windows-based systems and applications
@@ -83,21 +73,24 @@ VPC Guru provides specialized consulting to help organizations build strong engi
 
 | Technology | Experience | Proficiency |
 |------------|-----------|-------------|
-| Object-Oriented Programming (OOP) | 19+ years | ★★★★★ |
+| Object-Oriented Programming (OOP) | 21+ years | ★★★★★ |
+| C/C++ | 21+ years | ★★★★★ |
+| Windows Development | 21+ years | ★★★★★ |
 | Python | 15+ years | ★★★★★ |
 | Scripting & DevOps | 15+ years | ★★★★★ |
 | Agile Development | 15+ years | ★★★★★ |
 | Project Management | 15+ years | ★★★★☆ |
-| Engineering Leadership | 10+ years | ★★★★★ |
+| Engineering Leadership | 15+ years | ★★★★★ |
 | AWS (Amazon Web Services) | 10+ years | ★★★★☆ |
 | Test Automation | 8+ years | ★★★★★ |
-| Security & Cybersecurity | 6+ years | ★★★★☆ |
-| Azure | 5+ years | ★★★★☆ |
+| Security & Cybersecurity | 7+ years | ★★★★☆ |
+| MacOS Development | 7+ years | ★★★★☆ |
+| Linux Development | 7+ years | ★★★★☆ |
 | GCP (Google Cloud Platform) | 5+ years | ★★★★☆ |
 | .NET Framework | 5+ years | ★★★★☆ |
 | GitLab | 5+ years | ★★★★☆ |
-| Windows Development | 8+ years | ★★★★☆ |
 | Game Design & Development | 8+ years | ★★★★☆ |
+| Azure | 2+ years | ★★★☆☆ |
 
 ---
 
