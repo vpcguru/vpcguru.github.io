@@ -9,6 +9,16 @@ url: "https://vpcguru.com"
 baseurl: ""
 repository: "vpcguru/vpcguru.github.io"
 
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Keep disabled pages (renamed to .archive) out of the build
+exclude:
+  - "_pages/*.archive"
+
 # Site Author
 author:
   name: "VPC Guru"
