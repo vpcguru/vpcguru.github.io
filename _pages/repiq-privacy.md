@@ -5,17 +5,15 @@ layout: single
 sitemap: true
 ---
 
-*Last updated: September 21, 2026*
+*Last updated: November 1, 2026*
 
 RepIQ is a workout-logging app published by Virtual Platform Consulting ("vpcguru", "we", "us"). This policy explains what data RepIQ collects and how it's used.
 
 ## What we collect
 
-- **Account identity:** if you sign in with Apple or Google, we receive an email address (or Apple's private relay address) and a unique account ID, used solely to identify your account.
+- **Account identity:** if you sign in with Apple or Google, we receive your name (if provided), an email address (or Apple's private relay address) and a unique account ID, used solely to identify your account.
 - **Workout data:** the exercises, sets, reps, and weights you log, so your history and personal records sync across your devices.
-- **Photos (optional):** if you use the camera/photo-import feature to digitize a paper workout program, that image is processed to extract text and is not stored after import.
-
-You can also use RepIQ anonymously without signing in. In that mode, workout data is tied to a device-local account with no email or identity attached.
+- **Crash and performance diagnostics:** if the app crashes, Firebase Crashlytics receives a crash report (device model, OS version, app version, and a stack trace) and basic performance data. These reports are not linked to your account or identity and are used only to find and fix bugs.
 
 ## What we don't do
 
